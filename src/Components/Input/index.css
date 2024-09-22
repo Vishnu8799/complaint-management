@@ -1,0 +1,83 @@
+.Dimmenxion-input-container {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin: 5px 10px; */
+    position: relative;
+    row-gap: 5px;
+}
+
+.Dimmenxion-input-container>input {
+    /* font-family: Monstserrat !important; */
+    font-size: 14px;
+}
+
+.Dimmenxion-input-toast-con {
+    /* border: 1px solid #d2d2d2; */
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    font-size: 10px;
+    padding: 0px 10px;
+    /* width: 100px; */
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:" Monstserrat-Regular";
+    z-index: 2;
+    /* background-color: red; */
+    color: black;
+}
+
+
+
+.Dimmenxion-input {
+    width: 100%;
+    padding: 5px 8px !important;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    outline: none !important;
+    font-family: JS_Regular !important;
+    font-size: 12px !important;
+    
+}
+
+
+
+.error-field {
+    border: 1px solid red !important;
+}
+
+.important-field {
+    color: red;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.Dimmenxion-input-name-block {
+    margin-left: 5px;
+    font-size: 12px !important;
+    font-family: JS_SemiBold !important;
+}
+
+/* input::placeholder {
+    color: hsl(0, 0%, 50%);
+} */
+.input_error{
+    font-size: 10px;
+    color: #e73532;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: ; */
+    font-weight: 700;
+}
+input::placeholder {
+    font-family: "Monstserrat-Regular" !important;
+    font-size: 10px;
+    color: hsl(0, 0%, 50%);
+}

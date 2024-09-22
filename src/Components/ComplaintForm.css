@@ -1,0 +1,45 @@
+.complaint-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    width: 90%;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+
+  
+  .input-field,
+  .select-field,
+  .textarea-field {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .textarea-field {
+    /* resize: none; */
+    height: 20px; /* Adjust height as needed */
+    width: 30%;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 10%;
+    height: 40px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
